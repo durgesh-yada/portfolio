@@ -251,9 +251,9 @@ a {
 /*-----Skill------*/
 
 .skills {
-  border-style: solid;
+  border-style:none;
   background-color: rgb(241, 241, 247);
-  width:99vw;
+  width:98vw;
   height: 100vh;
   display: flex;
   padding-left:px;
@@ -420,10 +420,13 @@ a{
   .project{
     height:60em;
   }
+  .myproject{
+    margin-left: 5px;
+  }
   .myintro{
     margin-left: -3em;
-    width: 26em;
-    margin-top: 8em;
+    width:25em;
+    margin-top: 10em;
   }
   
   .contactimg img{
