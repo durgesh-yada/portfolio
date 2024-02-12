@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.sidebar{
+  background-color: rgb(183, 146, 217);
+  /*width: 10.5vw;*/
+  height: 100vh;
+  transition:transform 0.3s ease-in;
+  position: absolute;
+  font-size:5em;
+}
+
+.sidebar nav {
+  padding: 2px;
+  margin-top: 25px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.sidebar nav li a {
+  border-style: none;
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  font-size: large;
+}
+
+li {
+  border-style: solid;
+  border-style: none;
+  width: 8.2vw;
+  height: 3vh;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+ul li a:hover {
+  color: beige;
+}
+
+.sidebar nav li:hover {
+  background-color: rgb(202, 94, 235);
+}
+
+.main {
+  background-color: whitesmoke;
+  width:100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  width:80vw;
+  height: 78vh;
+  margin: 50PX auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.devinfo {
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+
+.hello {
+  font-size:38px;
+}
+
+.name {
+  font-size:40px;
+  margin-top: 0.15em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about {
+  font-size: 30px;
+  margin-top: 0.3em;
+}
+
+.moreabout {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 0.15em;
+}
+
+.button a{
+  width:100px;
+  height:20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius:5px;
+  float: left;
+  text-decoration: none;
+  border-color: rgb(121, 44, 151);
+  color: black;
+  background-color: rgb(180, 122, 235);
+}
+
+.button a:hover {
+  background-color: rgb(172, 77, 194);
+  color: rgb(243, 245, 247);
+}
+
+.devimg img {
+  height: 78vh;
+  justify-content: space-around;
+}
+
+/*-----Contact-----*/
+.container2 {
+  background-color: rgb(246, 246, 248);
+  display: flex;
+  width: 89vw;
+  height: 100vh;
+
+}
+
+.contact {
+  background-color: #f5f5f7;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  width:90vw;
+  height: 80vh;
+  padding-left:140px;
+  margin-top: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  margin-top: 30px;
+  margin-left: 60px;
+  display: flex;
+  font-size: 34px;
+
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+  margin-left: 60px;
+  margin-top: 10px;
+  width:40vw;
+  justify-content: center;
+
+}
+
+.contact form div {
+  width: 20vw;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact form div input {
+  border-style: solid;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.contact form div label {
+  font-size: 16px;
+}
+
+p {
+  font-size: 9px;
+  color: rgb(34, 52, 122);
+  padding: 5px 0px;
+}
+
+.contactimg img {
+  border-style: none;
+  display: flex;
+  margin-top:120px;
+  width:40vw;
+  height:70%;
+  justify-content: space-around;
+}
+
+.submt {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: bold;
+  background-color: rgb(212, 154, 239);
+}
+
+.submt:hover {
+  background-color: rgb(175, 74, 218);
+  color: rgb(245, 242, 245);
+}
+
+a {
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+}
+
+/*------My introduction---*/
+.myintro {
+  border-style:none;
+  margin-left:50px;
+  padding-right:30px;
+  width:90vw;
+  height: 100vh;
+  display: flex;
+  margin-top:-7em;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.myintro h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  padding: 100px 0px 10px 80px;
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.myintro div {
+  display: flex;
+  flex-direction: column;
+  border-style: none;
+  margin: 10px 0px 10px 80px;
+  text-align: justify;
+  font-size: 21px;
+}
+
+/*-----Skill------*/
+
+.skills {
+  border-style: solid;
+  background-color: rgb(241, 241, 247);
+  width:99vw;
+  height: 100vh;
+  display: flex;
+  padding-left:px;
+  justify-content: center;
+
+}
+
+.leval h1 {
+  padding-top: 2em;
+  padding-left:1em;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size:35px;
+}
+
+.leval {
+  flex-direction: column;
+  width: 50vw;
+  height: 100%;
+ }
+.skills .line {
+  background-color: rgb(28, 9, 9);
+  width: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+  margin: 15px 0px 0px 50px;
+  right:1px;
+}
+.skillimg img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-top: 140px;
+}
+ .a{
+  background-color: rgb(23, 21, 21);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom:500px;
+  margin-bottom:60px;
+  margin-left:53px;
+  border-style:none;
+  width:70px;
+  height:0.5vh;
+ }
+ .a h2{
+  position:relative;
+  left: 80px;
+  bottom:15px;
+  font-size:20px;
+  display: flex;
+ }
+ /*-----My project----*/
+
+ .project{
+  width:95%;
+  height:500px;
+  display:flex;
+  justify-content:center;
+ }
+.myproject{
+  width:100em;
+  height:auto;
+  border-style:none;
+  display: flex;
+  flex-direction:column;
+  margin-left:50px;
+  justify-content:center;
+
+ }
+ .myproject h1{
+  font-family:'Chakra Petch', sans-serif;
+  margin-top:5em;
+  margin-bottom:15px;
+  margin-left:18px;
+ }
+.myproject div{
+  font-size:22px;
+  margin-left:10px;
+}
+.myproject div div{
+  font-size:17px;
+  margin-left:10px;
+  margin-bottom:15px;
+  
+}
+#discription{
+  font-size:15px;
+  color:blue;
+}
+.project img{
+  margin-top:100px;
+  width:100%;
+  height: auto;
+}
+/*-----work----*/
+.Work h1{
+font-family: 'Chakra Petch', sans-serif;
+font-size:40px;
+margin: 94px 0px 0px 122px;
+}
+.internship{
+  margin-top: 10px;
+  margin-left:142px;
+}
+.internship div{
+  margin-left:15px;
+}
+
+/*----------------------*/
+
+.sidebarGo{
+  transform: translate(-163px, 0px);
+  position: absolute;
+}
+.hamburger{
+  cursor: pointer;
+  position: absolute;
+  left:10px;
+  top:10px;
+}
+.ham{
+  margin-top:8px;
+}
+.cross{
+  margin-top: 2px;
+  margin-left:120px;
+  width: 26px;
+}
+a{
+  box-shadow: none;
+}
+
+@media (max-width:1377px){
+ 
+  /*.sidebar{
+    transform: translate(-163px, 0px);
+    position: absolute;
+  }*/
+  .devimg{
+    display: none;
+  }
+  .infocontainer{
+    margin-top:1em;
+  }
+  .hello{
+    margin-top: 1em;
+  }
+  .button{
+    margin-top:1em;
+    
+  }
+  .cross{
+   margin-left:2em;
+  }
+  
+  .sidebar{
+    width:70px;
+  }
+  .project img{
+    display: none;
+  }
+  .project{
+    height:60em;
+  }
+  .myintro{
+    margin-left: -3em;
+    width: 26em;
+    margin-top: 8em;
+  }
+  
+  .contactimg img{
+    display: none;
+  }
+
+  .contact h1 {
+    margin-top: 61px;
+    margin-left:21px;
+    font-size: 33px;
+  }
+  .contact{
+    padding-left: 10px;
+    margin-top:70px;
+  }
+  .contact form {
+    margin-left:30px;
+    margin-bottom: 10px;
+  }
+  .contact form div {
+    width: 74vw;
+    margin-top: 32px;
+  }
+  .Work h1{
+    font-size:40px;
+    margin: 118px 0px 0px 38px;
+  }
+  .internship{
+    margin-top: 13px;
+    margin-left:38px;
+  }
+  
+}
